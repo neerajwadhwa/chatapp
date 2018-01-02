@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const app = express();
 const server = require('http').createServer(app);
 const io = require('socket.io').listen(server);
-const Chat = require('./databse/model');
+const Chat = require('./database/model');
 
 server.listen(8000);
 
